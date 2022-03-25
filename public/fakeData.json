@@ -1,0 +1,74 @@
+[
+    {
+      "id": "1",
+      "price":"40",
+      "picture": "https://www.freepik.com/free-photo/tasty-burger-wooden-board_21744781.htm#query=fast%20food&position=39&from_view=search",
+      "name": "Burger wooden board"
+    },
+    {
+      "id": "2",
+      "price":"50",
+      "picture": "https://www.freepik.com/free-photo/pasta-spaghetti-with-shrimps-tomato-sauce-served-plate-dark-surface-closeup_9375754.htm#query=pasta&position=31&from_view=search",
+      "name": "Pasta spaghetti"
+    },
+    {
+      "id": "3",
+      "price":"45",
+      "picture": "https://www.freepik.com/free-vector/hamburger-realistic-isolated_3924824.htm#query=burger&position=21&from_view=search",
+      "name": "Hamburger realistic"
+    },
+    {
+      "id": "4",
+      "price":"60",
+      "picture": "https://www.freepik.com/free-photo/delicious-square-pizza-plate_23182239.htm#query=food&position=48&from_view=search",
+      "name": "Delicious pizza plate"
+    },
+    {
+      "id": "5",
+      "price":"66",
+      "picture": "https://www.freepik.com/free-photo/chinese-cuisine-deepfried-quail-eggs_21548345.htm#query=food&position=34&from_view=search",
+      "name": "Quail eggs"
+    },
+    {
+      "id": "6",
+      "price":"100",
+      "picture": "https://www.freepik.com/free-photo/tasty-fast-food-arrangement_21744860.htm#query=food&position=38&from_view=search",
+      "name": "Food arrangement"
+    },
+    {
+      "id": "7",
+      "price":"20",
+      "picture": "https://www.freepik.com/free-photo/top-view-indian-food-spices_11082486.htm?query=food&collectionId=589&&position=9&from_view=collections",
+      "name": "Indian food"
+    },
+    {
+      "id": "8",
+      "price":"60",
+      "picture": "https://www.freepik.com/free-photo/close-up-delicious-asian-food_18041926.htm?query=food&collectionId=1643&&position=4&from_view=collections",
+      "name": "Asian food"
+    },
+    {
+      "id": "9",
+      "price":"88",
+      "picture": "https://www.freepik.com/free-photo/hamburger-with-french-fries-table_7136259.htm#query=burger&position=49&from_view=search",
+      "name": "French fries"
+    },
+    {
+      "id": "10",
+      "price":"77",
+      "picture": "https://www.freepik.com/free-photo/front-view-yummy-meat-cheeseburger-cutting-board-light-background-salad-dinner-burger-snack-fast-food-sandwich-dish_22291933.htm#query=burger&position=33&from_view=search",
+      "name": "Burger snack"
+    },
+    {
+      "id": "11",
+      "price":"99",
+      "picture": "https://www.freepik.com/free-photo/delicious-asian-noodles-concept_11381870.htm?query=food&collectionId=1643&&position=8&from_view=collections",
+      "name": "Noodles concept"
+    },
+    {
+      "id": "12",
+      "price":"111",
+      "picture": "https://www.freepik.com/free-photo/burger-with-meat-cutlet-tomatoes-lettuce-cheese_7104673.htm#query=burger&position=23&from_view=search",
+      "name": "Tomatoes lettuce"
+    }
+]
