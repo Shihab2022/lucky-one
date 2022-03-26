@@ -27,11 +27,18 @@ const deleteData=()=>{
 
 const chooseRandom=()=>{
  
+// if(cart.length >0){
+    const ranNumber= (Math.round(Math.random()*cart.length)) ;
+    const findProduct=cart.find(data => parseFloat(data.id )===ranNumber);
+    if(findProduct){
+ setCart([findProduct ])
+    }
+   
+ else{
+     alert('Please try again')
+ }
 
-    const ranNumber= (Math.round(Math.random()*11)) ;
 
-    const findProduct=products.find(data => parseFloat(data.id )===ranNumber);
-    setCart([findProduct ])
 
 }
    //data fetch

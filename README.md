@@ -1,10 +1,8 @@
 # Fast food restaurant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My life site link
+Life site link : [https://whimsical-raindrop-1d7d72.netlify.app/]
 
-## My life site link
-[https://whimsical-raindrop-1d7d72.netlify.app/]
-In the project directory, you can run:
 
 ### `npm start`
 
