@@ -35,17 +35,19 @@ const [cart,setCart]=useState([])
             </div> 
             </div>
         <div className="col-md-3 ">
-      {
-      console.log(cart)
-      
-      
-      
-      
+    <div className="details-product rounded-3">
+    <h3 className='py-3'>Your Selected Food</h3>
+    {
+          cart.map(data=><ProductDetails data={data} key={data.id}></ProductDetails>)
       }
-      {
-          cart.map(data=><ProductDetails data={data}></ProductDetails>)
-      }
-        
+        <div className="product-btn py-3">
+         
+                <button  className="btn details-btn mt-3 px-3 py-2 ">Choose 1 For Me</button>
+                <button  className="btn details-btn mt-3 px-3 py-2 ">Choose Again</button>
+        </div>
+
+    </div>
+    
 
         </div>
 

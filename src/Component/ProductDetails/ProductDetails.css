@@ -1,11 +1,16 @@
-.details-product{
-    background-color:rgb(208, 232, 242);   
-    position:sticky;
-    top:0;
-    margin-top: 15px;
-}
+
 .show-details{
+    padding:0 20px;
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items:center;
+}
+.show-details img{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+}
+.delete-btn{
+    color:rgb(216, 33, 72);
+    font-size:20px;
 }
