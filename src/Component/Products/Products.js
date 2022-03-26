@@ -2,17 +2,24 @@ import { useEffect, useState } from 'react';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SingleProduct from '../SingleProduct/SingleProduct';
+import ProductDetails from '../ProductDetails/ProductDetails';
+import './Products.css'
 
 const Products = () => {
     const [products,setProducts]=useState([])
-
-    useEffect(() =>{
+const [cart,setCart]=useState([])
   
+    const selectedProduct=(id)=>{
+        const selectProduct=products.find(product=>product.id===id)
+        const newProduct=[...cart,selectProduct]
+        setCart(newProduct)
+
+    }
+   
+    useEffect(() =>{
   fetch('fakeData.json')
   .then(response =>response.json())
   .then(data=>setProducts(data))
-  
-  
     },[])
     // console.log(products)
     return (
@@ -21,14 +28,24 @@ const Products = () => {
         <div className="col-md-9">
              <div className="row">
              {
-            products.map(product => <SingleProduct product={product} key={product.id}></SingleProduct>)
+            products.map(product => <SingleProduct product={product} key={product.id} selectedProduct={selectedProduct}></SingleProduct>)
 
             }
     
             </div> 
             </div>
-        <div className="col-md-3">
-
+        <div className="col-md-3 ">
+      {
+      console.log(cart)
+      
+      
+      
+      
+      }
+      {
+          cart.map(data=><ProductDetails data={data}></ProductDetails>)
+      }
+        
 
         </div>
 
