@@ -9,7 +9,7 @@ const ProductDetails = ({data}) => {
            
         <div className='show-details py-2'>
                     <img src={picture} alt="" />
-                    <p>{name}</p>
+                    <p className='mt-2'>{name}</p>
                     <span className="delete-btn"> <FaRegWindowClose/></span>
                 </div>
                

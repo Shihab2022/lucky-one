@@ -9,13 +9,31 @@ const Products = () => {
     const [products,setProducts]=useState([])
 const [cart,setCart]=useState([])
   
+// click card button add data
+
     const selectedProduct=(id)=>{
         const selectProduct=products.find(product=>product.id===id)
         const newProduct=[...cart,selectProduct]
         setCart(newProduct)
 
     }
-   
+//delite all data
+
+const deleteData=()=>{
+    setCart([])
+}
+
+// Choose one randomli
+
+const chooseRandom=()=>{
+    const ranNumber= (Math.round(Math.random()*10)) ;
+    const findProduct=products.find(data => parseFloat(data.id )===ranNumber);
+    console.log(findProduct)
+    setCart([findProduct ])
+
+}
+   //data fetch
+
     useEffect(() =>{
   fetch('fakeData.json')
   .then(response =>response.json())
@@ -42,8 +60,8 @@ const [cart,setCart]=useState([])
       }
         <div className="product-btn py-3">
          
-                <button  className="btn details-btn mt-3 px-3 py-2 ">Choose 1 For Me</button>
-                <button  className="btn details-btn mt-3 px-3 py-2 ">Choose Again</button>
+                <button onClick={chooseRandom} className="btn details-btn mt-3 px-3 py-2 ">Choose 1 For Me</button>
+                <button onClick={deleteData}  className="btn details-btn mt-3 px-3 py-2 ">Choose Again</button>
         </div>
 
     </div>
