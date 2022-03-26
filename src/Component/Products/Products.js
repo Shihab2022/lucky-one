@@ -28,7 +28,6 @@ const deleteData=()=>{
 const chooseRandom=()=>{
     const ranNumber= (Math.round(Math.random()*10)) ;
     const findProduct=products.find(data => parseFloat(data.id )===ranNumber);
-    console.log(findProduct)
     setCart([findProduct ])
 
 }
