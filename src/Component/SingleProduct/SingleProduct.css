@@ -1,5 +1,5 @@
 .box-shadow {
-  
+  height:90%;
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgb(204, 219, 232) -10px -100px 6px 1px inset; 
 }
 .details-btn{
@@ -9,4 +9,8 @@
 .details-btn:hover{
     background-color:white;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.btn-icon{
+    font-size:20px;
+    margin-left:6px;
 }
