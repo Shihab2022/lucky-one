@@ -26,7 +26,10 @@ const deleteData=()=>{
 // Choose one randomli
 
 const chooseRandom=()=>{
-    const ranNumber= (Math.round(Math.random()*10)) ;
+ 
+
+    const ranNumber= (Math.round(Math.random()*11)) ;
+
     const findProduct=products.find(data => parseFloat(data.id )===ranNumber);
     setCart([findProduct ])
 
@@ -43,7 +46,7 @@ const chooseRandom=()=>{
         <div className="container">
             <div className="row">
         <div className="col-md-9">
-             <div className="row">
+             <div className="row responsive">
              {
             products.map(product => <SingleProduct product={product} key={product.id} selectedProduct={selectedProduct}></SingleProduct>)
 
